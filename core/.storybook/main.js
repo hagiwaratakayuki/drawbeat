@@ -13,6 +13,8 @@ const config = {
   },
   core: {
     disableTelemetry: true,
+    crossOriginIsolated: true,
+
   },
 };
 export default config;

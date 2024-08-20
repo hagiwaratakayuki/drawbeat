@@ -40,7 +40,7 @@ export async function getVarifacationKey() {
     const { verificationKey } = await Logger.compile();
     return verificationKey
 }
-
+getVarifacationKey().then(console.log)
 export class ZKLogger {
     proof: typeof SelfProof
 

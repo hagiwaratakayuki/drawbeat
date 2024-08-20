@@ -60,7 +60,8 @@
   function startRythm() {
     isRythmStart = true;
     countDown = 3;
-    /*logger = new ZKLogger();
+    /*
+    logger = new ZKLogger();
     logger.init().then(function () {
       console.log("zklogger init");
     });
